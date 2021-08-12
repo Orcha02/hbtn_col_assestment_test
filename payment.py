@@ -11,6 +11,6 @@ class Payment(BaseModel, Base):
     __tablename__ = "users"
     'type' = Column(String(128), nullable=False)
     date = Column(Integer(128), nullable=False)
-    txn_id = Column(Integer(128))
+    txn_id = Column(Integer(128), ForeignKey("txn.id"))
     total = Column(Integer(128))
     order = relationship("Order", backref="order", cascade ="all, delete")
