@@ -1,5 +1,7 @@
 CREATE DATABASE IF NOT EXISTS hbtn_assesment;
+/*
 USE hbtn_assesment;
+
 CREATE TABLE IF NOT EXISTS users (
        name VARCHAR(256),
        lastname VARCHAR(256),
@@ -28,3 +30,4 @@ CREATE TABLE IF NOT EXISTS payment (
        total VARCHAR(256),
        status VARCHAR(256)
 );
+*/
